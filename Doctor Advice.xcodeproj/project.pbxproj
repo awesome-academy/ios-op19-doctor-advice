@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BBF742D619672AF64DB15B /* Pods_Doctor_Advice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8183A4FACE08E54B9E2D906E /* Pods_Doctor_Advice.framework */; };
+		9D7EC3702CAF125CFA6C8DE0 /* Pods_Doctor_AdviceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98438640C2393AADE57A842 /* Pods_Doctor_AdviceUITests.framework */; };
+		B702AA2C22BCCC0C006A6813 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702AA2B22BCCC0C006A6813 /* Login.swift */; };
+		B73E441622BE2A84008FE77D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73E441522BE2A84008FE77D /* HomeViewController.swift */; };
+		B73E441822BE3570008FE77D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73E441722BE3570008FE77D /* RegisterViewController.swift */; };
+		B746148022C09E2F00261934 /* MedicalRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B746147F22C09E2F00261934 /* MedicalRecordViewController.swift */; };
+		B746148222C09E4D00261934 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B746148122C09E4D00261934 /* MessageViewController.swift */; };
+		B746148422C09E5E00261934 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B746148322C09E5E00261934 /* ProfileViewController.swift */; };
+		B746148622C0AFC600261934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B746148522C0AFC600261934 /* Assets.xcassets */; };
+		B7AA6EA822C1F46600F41A25 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA6EA722C1F46600F41A25 /* CellTableViewCell.swift */; };
+		B7DB663122A9FD01009EE008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB663022A9FD01009EE008 /* AppDelegate.swift */; };
+		B7DB663622A9FD01009EE008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DB663422A9FD01009EE008 /* Main.storyboard */; };
+		B7DB663922A9FD01009EE008 /* Doctor_Advice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7DB663722A9FD01009EE008 /* Doctor_Advice.xcdatamodeld */; };
+		B7DB663E22A9FD03009EE008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DB663C22A9FD03009EE008 /* LaunchScreen.storyboard */; };
+		B7DB664922A9FD03009EE008 /* Doctor_AdviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB664822A9FD03009EE008 /* Doctor_AdviceTests.swift */; };
+		B7DB665422A9FD03009EE008 /* Doctor_AdviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB665322A9FD03009EE008 /* Doctor_AdviceUITests.swift */; };
+		B7DB666222AA0CB2009EE008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7DB666122AA0CB1009EE008 /* GoogleService-Info.plist */; };
+		DFD58566B8269C573DC9FB78 /* Pods_Doctor_AdviceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92C57E6B4D4E2F3C5C66896 /* Pods_Doctor_AdviceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7DB664522A9FD03009EE008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DB662522A9FD01009EE008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DB662C22A9FD01009EE008;
+			remoteInfo = "Doctor Advice";
+		};
+		B7DB665022A9FD03009EE008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DB662522A9FD01009EE008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DB662C22A9FD01009EE008;
+			remoteInfo = "Doctor Advice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8183A4FACE08E54B9E2D906E /* Pods_Doctor_Advice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doctor_Advice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FF7C9AA14C220609772401 /* Pods-Doctor Advice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor Advice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice.debug.xcconfig"; sourceTree = "<group>"; };
+		9393C6A7DA513C90AC098A01 /* Pods-Doctor AdviceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor AdviceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor AdviceTests/Pods-Doctor AdviceTests.release.xcconfig"; sourceTree = "<group>"; };
+		A92C57E6B4D4E2F3C5C66896 /* Pods_Doctor_AdviceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doctor_AdviceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC114745D79DA4C1EBE33ECE /* Pods-Doctor AdviceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor AdviceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor AdviceUITests/Pods-Doctor AdviceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B702AA2B22BCCC0C006A6813 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B73E441522BE2A84008FE77D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B73E441722BE3570008FE77D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B746147F22C09E2F00261934 /* MedicalRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordViewController.swift; sourceTree = "<group>"; };
+		B746148122C09E4D00261934 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B746148322C09E5E00261934 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B746148522C0AFC600261934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7AA6EA722C1F46600F41A25 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		B7DB662D22A9FD01009EE008 /* Doctor Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor Advice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DB663022A9FD01009EE008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7DB663522A9FD01009EE008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7DB663822A9FD01009EE008 /* Doctor_Advice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doctor_Advice.xcdatamodel; sourceTree = "<group>"; };
+		B7DB663D22A9FD03009EE008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7DB663F22A9FD03009EE008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DB664422A9FD03009EE008 /* Doctor AdviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doctor AdviceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DB664822A9FD03009EE008 /* Doctor_AdviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor_AdviceTests.swift; sourceTree = "<group>"; };
+		B7DB664A22A9FD03009EE008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DB664F22A9FD03009EE008 /* Doctor AdviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doctor AdviceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DB665322A9FD03009EE008 /* Doctor_AdviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor_AdviceUITests.swift; sourceTree = "<group>"; };
+		B7DB665522A9FD03009EE008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DB666122AA0CB1009EE008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9CD884C1C4268EB59099A94 /* Pods-Doctor AdviceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor AdviceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor AdviceUITests/Pods-Doctor AdviceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E98438640C2393AADE57A842 /* Pods_Doctor_AdviceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doctor_AdviceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0E34870C88A230CBA3DF1A /* Pods-Doctor AdviceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor AdviceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor AdviceTests/Pods-Doctor AdviceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7CD3102D922655FC0BEBD7A /* Pods-Doctor Advice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor Advice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7DB662A22A9FD01009EE008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BBF742D619672AF64DB15B /* Pods_Doctor_Advice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664122A9FD03009EE008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD58566B8269C573DC9FB78 /* Pods_Doctor_AdviceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664C22A9FD03009EE008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7EC3702CAF125CFA6C8DE0 /* Pods_Doctor_AdviceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045960674473EB07CA4B194C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82FF7C9AA14C220609772401 /* Pods-Doctor Advice.debug.xcconfig */,
+				F7CD3102D922655FC0BEBD7A /* Pods-Doctor Advice.release.xcconfig */,
+				EC0E34870C88A230CBA3DF1A /* Pods-Doctor AdviceTests.debug.xcconfig */,
+				9393C6A7DA513C90AC098A01 /* Pods-Doctor AdviceTests.release.xcconfig */,
+				AC114745D79DA4C1EBE33ECE /* Pods-Doctor AdviceUITests.debug.xcconfig */,
+				D9CD884C1C4268EB59099A94 /* Pods-Doctor AdviceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B746147C22C05A9700261934 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B746147E22C05AAA00261934 /* Main */,
+				B7E0955E22C32E1F00619A06 /* Storyboards */,
+				B7E0956022C32EE000619A06 /* Repo */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B746147D22C05AA100261934 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B746148522C0AFC600261934 /* Assets.xcassets */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B746147E22C05AAA00261934 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B702AA2B22BCCC0C006A6813 /* Login.swift */,
+				B73E441522BE2A84008FE77D /* HomeViewController.swift */,
+				B73E441722BE3570008FE77D /* RegisterViewController.swift */,
+				B746147F22C09E2F00261934 /* MedicalRecordViewController.swift */,
+				B746148122C09E4D00261934 /* MessageViewController.swift */,
+				B746148322C09E5E00261934 /* ProfileViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B7DB662422A9FD01009EE008 = {
+			isa = PBXGroup;
+			children = (
+				B7DB662F22A9FD01009EE008 /* Doctor Advice */,
+				B7DB664722A9FD03009EE008 /* Doctor AdviceTests */,
+				B7DB665222A9FD03009EE008 /* Doctor AdviceUITests */,
+				B7DB662E22A9FD01009EE008 /* Products */,
+				045960674473EB07CA4B194C /* Pods */,
+				E954B6298A0304C55B57BFC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DB662E22A9FD01009EE008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB662D22A9FD01009EE008 /* Doctor Advice.app */,
+				B7DB664422A9FD03009EE008 /* Doctor AdviceTests.xctest */,
+				B7DB664F22A9FD03009EE008 /* Doctor AdviceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DB662F22A9FD01009EE008 /* Doctor Advice */ = {
+			isa = PBXGroup;
+			children = (
+				B7E0955D22C32D7A00619A06 /* App */,
+				B746147D22C05AA100261934 /* Data */,
+				B746147C22C05A9700261934 /* Scenes */,
+				B7DB663F22A9FD03009EE008 /* Info.plist */,
+				B7DB663722A9FD01009EE008 /* Doctor_Advice.xcdatamodeld */,
+				B7DB666122AA0CB1009EE008 /* GoogleService-Info.plist */,
+			);
+			path = "Doctor Advice";
+			sourceTree = "<group>";
+		};
+		B7DB664722A9FD03009EE008 /* Doctor AdviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB664822A9FD03009EE008 /* Doctor_AdviceTests.swift */,
+				B7DB664A22A9FD03009EE008 /* Info.plist */,
+			);
+			path = "Doctor AdviceTests";
+			sourceTree = "<group>";
+		};
+		B7DB665222A9FD03009EE008 /* Doctor AdviceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB665322A9FD03009EE008 /* Doctor_AdviceUITests.swift */,
+				B7DB665522A9FD03009EE008 /* Info.plist */,
+			);
+			path = "Doctor AdviceUITests";
+			sourceTree = "<group>";
+		};
+		B7E0955D22C32D7A00619A06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB663022A9FD01009EE008 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B7E0955E22C32E1F00619A06 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB663422A9FD01009EE008 /* Main.storyboard */,
+				B7DB663C22A9FD03009EE008 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7E0956022C32EE000619A06 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				B7E0956122C32F1500619A06 /* cell */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		B7E0956122C32F1500619A06 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7AA6EA722C1F46600F41A25 /* CellTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E954B6298A0304C55B57BFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8183A4FACE08E54B9E2D906E /* Pods_Doctor_Advice.framework */,
+				A92C57E6B4D4E2F3C5C66896 /* Pods_Doctor_AdviceTests.framework */,
+				E98438640C2393AADE57A842 /* Pods_Doctor_AdviceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7DB662C22A9FD01009EE008 /* Doctor Advice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DB665822A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor Advice" */;
+			buildPhases = (
+				CDD5EAE314A24B73B85BDE1D /* [CP] Check Pods Manifest.lock */,
+				B7DB662922A9FD01009EE008 /* Sources */,
+				B7DB662A22A9FD01009EE008 /* Frameworks */,
+				B7DB662B22A9FD01009EE008 /* Resources */,
+				02CD9A794FEE549A0101B623 /* [CP] Embed Pods Frameworks */,
+				68F8755FD19FD2D111B9F920 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doctor Advice";
+			productName = "Doctor Advice";
+			productReference = B7DB662D22A9FD01009EE008 /* Doctor Advice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7DB664322A9FD03009EE008 /* Doctor AdviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DB665B22A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor AdviceTests" */;
+			buildPhases = (
+				123E021B5E8B0D7148A9ED0D /* [CP] Check Pods Manifest.lock */,
+				B7DB664022A9FD03009EE008 /* Sources */,
+				B7DB664122A9FD03009EE008 /* Frameworks */,
+				B7DB664222A9FD03009EE008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DB664622A9FD03009EE008 /* PBXTargetDependency */,
+			);
+			name = "Doctor AdviceTests";
+			productName = "Doctor AdviceTests";
+			productReference = B7DB664422A9FD03009EE008 /* Doctor AdviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7DB664E22A9FD03009EE008 /* Doctor AdviceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DB665E22A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor AdviceUITests" */;
+			buildPhases = (
+				FA80C3C28EE922FAA934ED45 /* [CP] Check Pods Manifest.lock */,
+				B7DB664B22A9FD03009EE008 /* Sources */,
+				B7DB664C22A9FD03009EE008 /* Frameworks */,
+				B7DB664D22A9FD03009EE008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DB665122A9FD03009EE008 /* PBXTargetDependency */,
+			);
+			name = "Doctor AdviceUITests";
+			productName = "Doctor AdviceUITests";
+			productReference = B7DB664F22A9FD03009EE008 /* Doctor AdviceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DB662522A9FD01009EE008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Phạm Huy";
+				TargetAttributes = {
+					B7DB662C22A9FD01009EE008 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B7DB664322A9FD03009EE008 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7DB662C22A9FD01009EE008;
+					};
+					B7DB664E22A9FD03009EE008 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7DB662C22A9FD01009EE008;
+					};
+				};
+			};
+			buildConfigurationList = B7DB662822A9FD01009EE008 /* Build configuration list for PBXProject "Doctor Advice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7DB662422A9FD01009EE008;
+			productRefGroup = B7DB662E22A9FD01009EE008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DB662C22A9FD01009EE008 /* Doctor Advice */,
+				B7DB664322A9FD03009EE008 /* Doctor AdviceTests */,
+				B7DB664E22A9FD03009EE008 /* Doctor AdviceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DB662B22A9FD01009EE008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DB663E22A9FD03009EE008 /* LaunchScreen.storyboard in Resources */,
+				B7DB666222AA0CB2009EE008 /* GoogleService-Info.plist in Resources */,
+				B746148622C0AFC600261934 /* Assets.xcassets in Resources */,
+				B7DB663622A9FD01009EE008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664222A9FD03009EE008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664D22A9FD03009EE008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02CD9A794FEE549A0101B623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageTextField/ImageTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		123E021B5E8B0D7148A9ED0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doctor AdviceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F8755FD19FD2D111B9F920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessagingDisplay/InAppMessagingDisplayResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doctor Advice/Pods-Doctor Advice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD5EAE314A24B73B85BDE1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doctor Advice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA80C3C28EE922FAA934ED45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doctor AdviceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7DB662922A9FD01009EE008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DB663922A9FD01009EE008 /* Doctor_Advice.xcdatamodeld in Sources */,
+				B73E441822BE3570008FE77D /* RegisterViewController.swift in Sources */,
+				B7DB663122A9FD01009EE008 /* AppDelegate.swift in Sources */,
+				B702AA2C22BCCC0C006A6813 /* Login.swift in Sources */,
+				B73E441622BE2A84008FE77D /* HomeViewController.swift in Sources */,
+				B746148022C09E2F00261934 /* MedicalRecordViewController.swift in Sources */,
+				B7AA6EA822C1F46600F41A25 /* CellTableViewCell.swift in Sources */,
+				B746148422C09E5E00261934 /* ProfileViewController.swift in Sources */,
+				B746148222C09E4D00261934 /* MessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664022A9FD03009EE008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DB664922A9FD03009EE008 /* Doctor_AdviceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DB664B22A9FD03009EE008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DB665422A9FD03009EE008 /* Doctor_AdviceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7DB664622A9FD03009EE008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DB662C22A9FD01009EE008 /* Doctor Advice */;
+			targetProxy = B7DB664522A9FD03009EE008 /* PBXContainerItemProxy */;
+		};
+		B7DB665122A9FD03009EE008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DB662C22A9FD01009EE008 /* Doctor Advice */;
+			targetProxy = B7DB665022A9FD03009EE008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7DB663422A9FD01009EE008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7DB663522A9FD01009EE008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7DB663C22A9FD03009EE008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7DB663D22A9FD03009EE008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7DB665622A9FD03009EE008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7DB665722A9FD03009EE008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7DB665922A9FD03009EE008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FF7C9AA14C220609772401 /* Pods-Doctor Advice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor Advice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanghuy.DoctorAdvice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7DB665A22A9FD03009EE008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CD3102D922655FC0BEBD7A /* Pods-Doctor Advice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor Advice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanghuy.DoctorAdvice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7DB665C22A9FD03009EE008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0E34870C88A230CBA3DF1A /* Pods-Doctor AdviceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor AdviceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanghuy.Doctor-AdviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doctor Advice.app/Doctor Advice";
+			};
+			name = Debug;
+		};
+		B7DB665D22A9FD03009EE008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9393C6A7DA513C90AC098A01 /* Pods-Doctor AdviceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor AdviceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanghuy.Doctor-AdviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doctor Advice.app/Doctor Advice";
+			};
+			name = Release;
+		};
+		B7DB665F22A9FD03009EE008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC114745D79DA4C1EBE33ECE /* Pods-Doctor AdviceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor AdviceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanghuy.Doctor-AdviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Doctor Advice";
+			};
+			name = Debug;
+		};
+		B7DB666022A9FD03009EE008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CD884C1C4268EB59099A94 /* Pods-Doctor AdviceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46AXV7VJAG;
+				INFOPLIST_FILE = "Doctor AdviceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quanghuy.Doctor-AdviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Doctor Advice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7DB662822A9FD01009EE008 /* Build configuration list for PBXProject "Doctor Advice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DB665622A9FD03009EE008 /* Debug */,
+				B7DB665722A9FD03009EE008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DB665822A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor Advice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DB665922A9FD03009EE008 /* Debug */,
+				B7DB665A22A9FD03009EE008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DB665B22A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor AdviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DB665C22A9FD03009EE008 /* Debug */,
+				B7DB665D22A9FD03009EE008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DB665E22A9FD03009EE008 /* Build configuration list for PBXNativeTarget "Doctor AdviceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DB665F22A9FD03009EE008 /* Debug */,
+				B7DB666022A9FD03009EE008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7DB663722A9FD01009EE008 /* Doctor_Advice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7DB663822A9FD01009EE008 /* Doctor_Advice.xcdatamodel */,
+			);
+			currentVersion = B7DB663822A9FD01009EE008 /* Doctor_Advice.xcdatamodel */;
+			path = Doctor_Advice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7DB662522A9FD01009EE008 /* Project object */;
+}
